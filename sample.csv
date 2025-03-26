@@ -1,0 +1,10 @@
+# Sample data
+months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+applications = [120, 150, 180, 200, 170, 190]
+ 
+plt.figure(figsize=(8,5))
+plt.bar(months, applications, color='blue')
+plt.xlabel("Months")
+plt.ylabel("Visa Applications")
+plt.title("Visa Applications Per Month")
+plt.show()
